@@ -20,5 +20,6 @@ const foodreq=new mongoose.Schema({
       required:true
     }
 })
+
 const appointment=new mongoose.model("AppointmentStatus",Appstat)
 module.exports=appointment;
